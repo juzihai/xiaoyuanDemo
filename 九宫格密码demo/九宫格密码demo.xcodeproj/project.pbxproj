@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81C123CC1F74E5110029A642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C123CB1F74E5110029A642 /* main.m */; };
+		81C123CF1F74E5110029A642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C123CE1F74E5110029A642 /* AppDelegate.m */; };
+		81C123D21F74E5110029A642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C123D11F74E5110029A642 /* ViewController.m */; };
+		81C123D51F74E5110029A642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C123D31F74E5110029A642 /* Main.storyboard */; };
+		81C123D71F74E5110029A642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C123D61F74E5110029A642 /* Assets.xcassets */; };
+		81C123DA1F74E5110029A642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C123D81F74E5110029A642 /* LaunchScreen.storyboard */; };
+		81C123E51F74E5110029A642 /* _____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C123E41F74E5110029A642 /* _____demoTests.m */; };
+		81C123F01F74E5110029A642 /* _____demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C123EF1F74E5110029A642 /* _____demoUITests.m */; };
+		81C124021F74F4C70029A642 /* ZLGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C124011F74F4C70029A642 /* ZLGestureLockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C123E11F74E5110029A642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C123BF1F74E5110029A642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C123C61F74E5110029A642;
+			remoteInfo = "九宫格密码demo";
+		};
+		81C123EC1F74E5110029A642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C123BF1F74E5110029A642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C123C61F74E5110029A642;
+			remoteInfo = "九宫格密码demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81C123C71F74E5110029A642 /* 九宫格密码demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "九宫格密码demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C123CB1F74E5110029A642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81C123CD1F74E5110029A642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81C123CE1F74E5110029A642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81C123D01F74E5110029A642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81C123D11F74E5110029A642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81C123D41F74E5110029A642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81C123D61F74E5110029A642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C123D91F74E5110029A642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C123DB1F74E5110029A642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C123E01F74E5110029A642 /* 九宫格密码demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "九宫格密码demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C123E41F74E5110029A642 /* _____demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____demoTests.m"; sourceTree = "<group>"; };
+		81C123E61F74E5110029A642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C123EB1F74E5110029A642 /* 九宫格密码demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "九宫格密码demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C123EF1F74E5110029A642 /* _____demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____demoUITests.m"; sourceTree = "<group>"; };
+		81C123F11F74E5110029A642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C124001F74F4C70029A642 /* ZLGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLGestureLockView.h; sourceTree = "<group>"; };
+		81C124011F74F4C70029A642 /* ZLGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLGestureLockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C123C41F74E5110029A642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C123DD1F74E5110029A642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C123E81F74E5110029A642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C123BE1F74E5110029A642 = {
+			isa = PBXGroup;
+			children = (
+				81C123C91F74E5110029A642 /* 九宫格密码demo */,
+				81C123E31F74E5110029A642 /* 九宫格密码demoTests */,
+				81C123EE1F74E5110029A642 /* 九宫格密码demoUITests */,
+				81C123C81F74E5110029A642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C123C81F74E5110029A642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C123C71F74E5110029A642 /* 九宫格密码demo.app */,
+				81C123E01F74E5110029A642 /* 九宫格密码demoTests.xctest */,
+				81C123EB1F74E5110029A642 /* 九宫格密码demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C123C91F74E5110029A642 /* 九宫格密码demo */ = {
+			isa = PBXGroup;
+			children = (
+				81C123CD1F74E5110029A642 /* AppDelegate.h */,
+				81C123CE1F74E5110029A642 /* AppDelegate.m */,
+				81C123D01F74E5110029A642 /* ViewController.h */,
+				81C123D11F74E5110029A642 /* ViewController.m */,
+				81C124001F74F4C70029A642 /* ZLGestureLockView.h */,
+				81C124011F74F4C70029A642 /* ZLGestureLockView.m */,
+				81C123D31F74E5110029A642 /* Main.storyboard */,
+				81C123D61F74E5110029A642 /* Assets.xcassets */,
+				81C123D81F74E5110029A642 /* LaunchScreen.storyboard */,
+				81C123DB1F74E5110029A642 /* Info.plist */,
+				81C123CA1F74E5110029A642 /* Supporting Files */,
+			);
+			path = "九宫格密码demo";
+			sourceTree = "<group>";
+		};
+		81C123CA1F74E5110029A642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81C123CB1F74E5110029A642 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81C123E31F74E5110029A642 /* 九宫格密码demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C123E41F74E5110029A642 /* _____demoTests.m */,
+				81C123E61F74E5110029A642 /* Info.plist */,
+			);
+			path = "九宫格密码demoTests";
+			sourceTree = "<group>";
+		};
+		81C123EE1F74E5110029A642 /* 九宫格密码demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C123EF1F74E5110029A642 /* _____demoUITests.m */,
+				81C123F11F74E5110029A642 /* Info.plist */,
+			);
+			path = "九宫格密码demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C123C61F74E5110029A642 /* 九宫格密码demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C123F41F74E5110029A642 /* Build configuration list for PBXNativeTarget "九宫格密码demo" */;
+			buildPhases = (
+				81C123C31F74E5110029A642 /* Sources */,
+				81C123C41F74E5110029A642 /* Frameworks */,
+				81C123C51F74E5110029A642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "九宫格密码demo";
+			productName = "九宫格密码demo";
+			productReference = 81C123C71F74E5110029A642 /* 九宫格密码demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C123DF1F74E5110029A642 /* 九宫格密码demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C123F71F74E5110029A642 /* Build configuration list for PBXNativeTarget "九宫格密码demoTests" */;
+			buildPhases = (
+				81C123DC1F74E5110029A642 /* Sources */,
+				81C123DD1F74E5110029A642 /* Frameworks */,
+				81C123DE1F74E5110029A642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C123E21F74E5110029A642 /* PBXTargetDependency */,
+			);
+			name = "九宫格密码demoTests";
+			productName = "九宫格密码demoTests";
+			productReference = 81C123E01F74E5110029A642 /* 九宫格密码demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C123EA1F74E5110029A642 /* 九宫格密码demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C123FA1F74E5110029A642 /* Build configuration list for PBXNativeTarget "九宫格密码demoUITests" */;
+			buildPhases = (
+				81C123E71F74E5110029A642 /* Sources */,
+				81C123E81F74E5110029A642 /* Frameworks */,
+				81C123E91F74E5110029A642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C123ED1F74E5110029A642 /* PBXTargetDependency */,
+			);
+			name = "九宫格密码demoUITests";
+			productName = "九宫格密码demoUITests";
+			productReference = 81C123EB1F74E5110029A642 /* 九宫格密码demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C123BF1F74E5110029A642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "CK GuoZi";
+				TargetAttributes = {
+					81C123C61F74E5110029A642 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3RN55RZ4VG;
+						ProvisioningStyle = Automatic;
+					};
+					81C123DF1F74E5110029A642 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3RN55RZ4VG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C123C61F74E5110029A642;
+					};
+					81C123EA1F74E5110029A642 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3RN55RZ4VG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C123C61F74E5110029A642;
+					};
+				};
+			};
+			buildConfigurationList = 81C123C21F74E5110029A642 /* Build configuration list for PBXProject "九宫格密码demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C123BE1F74E5110029A642;
+			productRefGroup = 81C123C81F74E5110029A642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C123C61F74E5110029A642 /* 九宫格密码demo */,
+				81C123DF1F74E5110029A642 /* 九宫格密码demoTests */,
+				81C123EA1F74E5110029A642 /* 九宫格密码demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C123C51F74E5110029A642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C123DA1F74E5110029A642 /* LaunchScreen.storyboard in Resources */,
+				81C123D71F74E5110029A642 /* Assets.xcassets in Resources */,
+				81C123D51F74E5110029A642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C123DE1F74E5110029A642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C123E91F74E5110029A642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C123C31F74E5110029A642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C123D21F74E5110029A642 /* ViewController.m in Sources */,
+				81C123CF1F74E5110029A642 /* AppDelegate.m in Sources */,
+				81C123CC1F74E5110029A642 /* main.m in Sources */,
+				81C124021F74F4C70029A642 /* ZLGestureLockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C123DC1F74E5110029A642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C123E51F74E5110029A642 /* _____demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C123E71F74E5110029A642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C123F01F74E5110029A642 /* _____demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C123E21F74E5110029A642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C123C61F74E5110029A642 /* 九宫格密码demo */;
+			targetProxy = 81C123E11F74E5110029A642 /* PBXContainerItemProxy */;
+		};
+		81C123ED1F74E5110029A642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C123C61F74E5110029A642 /* 九宫格密码demo */;
+			targetProxy = 81C123EC1F74E5110029A642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C123D31F74E5110029A642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C123D41F74E5110029A642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81C123D81F74E5110029A642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C123D91F74E5110029A642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C123F21F74E5110029A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81C123F31F74E5110029A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C123F51F74E5110029A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RN55RZ4VG;
+				INFOPLIST_FILE = "九宫格密码demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ck.-----demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81C123F61F74E5110029A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RN55RZ4VG;
+				INFOPLIST_FILE = "九宫格密码demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ck.-----demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81C123F81F74E5110029A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3RN55RZ4VG;
+				INFOPLIST_FILE = "九宫格密码demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ck.-----demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/九宫格密码demo.app/九宫格密码demo";
+			};
+			name = Debug;
+		};
+		81C123F91F74E5110029A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3RN55RZ4VG;
+				INFOPLIST_FILE = "九宫格密码demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ck.-----demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/九宫格密码demo.app/九宫格密码demo";
+			};
+			name = Release;
+		};
+		81C123FB1F74E5110029A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3RN55RZ4VG;
+				INFOPLIST_FILE = "九宫格密码demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ck.-----demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "九宫格密码demo";
+			};
+			name = Debug;
+		};
+		81C123FC1F74E5110029A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3RN55RZ4VG;
+				INFOPLIST_FILE = "九宫格密码demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ck.-----demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "九宫格密码demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C123C21F74E5110029A642 /* Build configuration list for PBXProject "九宫格密码demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C123F21F74E5110029A642 /* Debug */,
+				81C123F31F74E5110029A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C123F41F74E5110029A642 /* Build configuration list for PBXNativeTarget "九宫格密码demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C123F51F74E5110029A642 /* Debug */,
+				81C123F61F74E5110029A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C123F71F74E5110029A642 /* Build configuration list for PBXNativeTarget "九宫格密码demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C123F81F74E5110029A642 /* Debug */,
+				81C123F91F74E5110029A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C123FA1F74E5110029A642 /* Build configuration list for PBXNativeTarget "九宫格密码demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C123FB1F74E5110029A642 /* Debug */,
+				81C123FC1F74E5110029A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C123BF1F74E5110029A642 /* Project object */;
+}

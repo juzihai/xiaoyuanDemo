@@ -1,0 +1,70 @@
+//
+//  PrefixHeader.pch
+//  PuTaoShuPro
+//
+//  Created by CK GuoZi on 2017/11/1.
+//  Copyright © 2017年 CK GuoZi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : 0)
+
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : 0)
+
+//#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : 0)
+
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242,2208), [[UIScreen mainScreen] currentMode].size) : 0)
+#define iPhoneX  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen]currentMode].size):NO)
+
+#define NAVHEIGHT 0
+#define TABBAR_HEIGHT 50
+#define BANNER_HEIGHT (SCREEN_HEIHT-TABBAR_HEIGHT-64)/4
+#define NAVHEIGHT_CURRENT 64
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIHT [[UIScreen mainScreen] bounds].size.height
+
+#define SafeAreaTopHeight (iPhoneX  ? 88 : 64)//顶栏高度
+#define SafeAreaTabbarHeight (SCREEN_HEIHT == 812.0 ? 83 : 49)//底栏高度
+//#define SafeAreaBottomHeight (SCREEN_HEIHT == 812.0 ? 34 : 0)
+
+//#define Statusbar_Height CGRectGetHeight([UIApplication sharedApplication].statusBarFrame)// 状态栏(statusbar)
+//#define Navigationbar_Height CGRectGetHeight(self.navigationController.navigationBar.frame) // 导航栏（navigationbar）
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+
+#define TEXTCOLORHEI [UIColor  colorWithRed:60/255.0 green:65/255.0 blue:69/255.0 alpha:1.0]
+
+#define TEXTCOLORRED [UIColor  colorWithRed:207/255.0 green:12/255.0 blue:117/255.0 alpha:1.0]
+
+
+
+//#define CGRectGetHeight ([UIApplication sharedApplication].statusBarFrame)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+//===============颜色宏定义=================
+#define COLOR_NAVIVIEW RGBACOLOR(153, 204, 51, 1)//(23, 174, 158, 1)
+#define COLOR_LINE RGBACOLOR( 230, 230, 230, 1)
+#define COLOR_PRICE RGBACOLOR( 234, 94, 61, 1)
+#define COLOR_QIAN_HUI RGBACOLOR( 238, 238, 238, 1)
+#define COLOR_SHEN_HUI RGBACOLOR( 120, 120, 120, 1)
+#define COLOR_TIFANNILAN RGBACOLOR( 58, 135, 160, 1)
+#define COLOR_RED RGBACOLOR(237, 65, 53, 1)
+#define HUICOLOR [UIColor colorWithRed:221/255.0f green:221/255.0f blue:221/255.0f alpha:1.0]
+#define COLOR_INT_HONG RGBACOLOR(255, 76, 167, 1.0)//项目数字红
+#define COLOR_HUI_BTN RGBACOLOR(229, 229, 229, 1.0)//项目灰色按钮
+#define COLOR_HONG RGBACOLOR(255, 143, 200, 1.0)//项目红色字体和按钮
+
+#define COLOR_textHei RGBACOLOR(51, 51, 51, 1)//字体颜色
+#define COLOR_textHui RGBACOLOR(163, 163, 163, 1)//字体颜色灰颜色
+#define COLOR_lineHui RGBACOLOR(245, 245, 245, 1)//线条浅灰颜色
+#define COLOR_backHui RGBACOLOR(248, 248, 248, 1)//背景浅灰颜色
+#endif /* PrefixHeader_pch */
